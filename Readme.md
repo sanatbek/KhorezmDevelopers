@@ -1,1 +1,1 @@
-##Dhorezm Developers
+##Khorezm Developers
