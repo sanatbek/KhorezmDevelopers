@@ -1,0 +1,166 @@
+
+.main-bg{
+    font-size: 14px;
+    background-image: url("../../images/circuit.gif");
+    background-color: #ffffff;
+}
+body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
+    font-size: 14px;
+    font-family: "Montserrat","Helvetica","Times New Roman",sans-serif;;
+}
+
+#hh2{
+
+    font-family: verdana,helvetica,arial,sans-serif;
+}
+.topHeader{
+    /*float: left;*/
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.main-container{
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;.
+}
+.row{
+    margin-right:-15px;
+    margin-left:-15px
+}
+.row:before,.row:after{
+    display:table;
+    content:" "
+}
+/*.row:after{*/
+     /*clear:both*/
+/*}*/
+/*.row:before,.row:after{*/
+    /*display:table;content:" "*/
+/*}*/
+/*.row:after{*/
+    /*clear:both*/
+/*}*/
+.main-panel{
+    box-shadow: 0px 0px 20px 3px #D3D3D3;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.leftSidebar{
+    border-right: 2px solid #E9E8E7;
+    border-bottom: 2px solid #E9E8E7;
+    background-color: rgba(212, 212, 212, 0.3);
+    text-decoration: none;
+    /*margin-bottom: 150px;*/
+}
+
+.left{
+    position: relative;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.left li{
+    position: relative;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    padding-top: 7px;
+    color: #ffffff;
+    /*border-bottom: 10px solid rgba(0, 54, 255, 0.15);*/
+}
+.left li a:hover,
+.left li a:focus{
+    display: block;
+    text-decoration: none;
+    /*color: green;*/
+    position: relative;
+}
+#sidebar{
+    display: block;
+    /*font-size: 20px;*/
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    text-align: left;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 999;
+     margin-left: -45px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /*margin-bottom: 200px;*/
+}
+
+
+.leftBody {
+    margin-top: -3px;
+    border-bottom: 1px solid white;
+    margin-right: 2px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.leftBody a:hover{
+    margin-top: -3px;
+    /*margin-right: 3px;*/
+    padding-bottom: 1px;
+    /*padding-top: 15px;*/
+    display: block;
+    color: #080808;
+    background-color: #47a447;
+}
+#leftHead {
+    margin-top: -3px;
+    border-bottom: 1px solid white;
+    margin-right: 2px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.leftBody a{
+    color: #080808;
+}
+#bottomContact{
+    margin-top: 200px;
+    margin-left: 50px;
+    border-top: 1px solid white;
+    line-height: 13px;
+}
+#footerContent{
+    position: inherit;
+    margin-top: 560px;
+    border-top: 10px solid #808080;
+}
+.header{
+    padding-bottom: 9px;
+    margin: 30px 30px 10px 40px;
+    color: #4cae4c;
+    font-family: "Montserrat", "Helvetica", "Times New Roman", sans-serif;
+    /*border-bottom: 1px solid #eee;*/
+}
+#tablePr{
+    width: 70%;
+    margin-left: 70px;
+}
+.table-hoverSanat tbody tr:hover,
+.table-hover>tbody>tr:hover>th{
+    background-color:red;
+}
+.table-stripedOdd>tbody>tr:nth-child(odd)>td,
+.table-stripedOdd>tbody>tr:nth-child(odd)>th{
+    background-color: #d0e9c6;
+}
+.table-stripedEven>tbody>tr:nth-child(even)>td,
+.table-stripedEven>tbody>tr:nth-child(even)>th{
+    background-color: #fcf8e3;
+}
+.panel-container{
+    width: 90%;
+    margin-left: 30px;
+}
+.img-style{
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 0px 0px 20px 3px #D3D3D3;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
