@@ -1,6 +1,19 @@
-@(message: String)
+@()
 
-@main("Welcome to Play") {
-    <h1 class="text-center text-danger">Nagap</h1>
+@main("Home") {
+    <div class="row">
+    @header()
+    </div>
+
+    <div class="main-panel">
+        <div id="SidedBar">
+        @leftSideBar()
+        </div>
+    </div>
+
+
+
+
+
 
 }

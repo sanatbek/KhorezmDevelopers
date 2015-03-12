@@ -4,28 +4,37 @@
     background-image: url("../../images/circuit.gif");
     background-color: #ffffff;
 }
+.headerArea{
+    width: 100%;
+    margin-top: -15px;
+    margin-right:-15px;
+    margin-left:-15px;
+    padding-bottom: 15px;
+}
 body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
-    font-size: 14px;
-    font-family: "Montserrat","Helvetica","Times New Roman",sans-serif;;
+    font-size: 15px;
+    /*font-family: "Montserrat","Helvetica","Times New Roman",sans-serif;;*/
+    font-family: verdana,helvetica,arial,sans-serif;
 }
 
 #hh2{
+    font-size: 30px;
 
-    font-family: verdana,helvetica,arial,sans-serif;
 }
 .topHeader{
-    /*float: left;*/
+    float: left;
     margin-left: 30px;
     margin-bottom: 8px;
 }
 .main-container{
-    padding-right: 180px;
-    padding-left: 180px;
-    margin-top: 50px;
+    padding-right: 130px;
+    padding-left: 130px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;.
 }
 .row{
+    width: 100%;
     margin-right:-15px;
     margin-left:-15px
 }
@@ -46,6 +55,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     box-shadow: 0px 0px 20px 3px #D3D3D3;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 80px;
 }
 .leftSidebar{
     border-right: 2px solid #E9E8E7;
@@ -54,13 +64,15 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     text-decoration: none;
     /*margin-bottom: 150px;*/
 }
-
+#SidedBar{
+    width: 30%;
+}
 .left{
-    position: relative;
-    font-size: 15px;
-    display: block;
+    /*position: relative;*/
+    /*font-size: 15px;*/
+    /*display: block;*/
     text-decoration: none;
-    padding-top: 10px;
+    /*padding-top: 5px;*/
 }
 .left li{
     position: relative;
@@ -79,13 +91,12 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     position: relative;
 }
 #sidebar{
-    display: block;
+    /*display: block;*/
     /*font-size: 20px;*/
     /*background-color: rgba(0, 0, 0, 0.1);*/
     text-align: left;
     transform: translate3d(0px, 0px, 0px);
     z-index: 999;
-     margin-left: -45px;
     box-sizing: border-box;
     text-decoration: none;
     /*margin-bottom: 200px;*/
@@ -96,15 +107,11 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     margin-top: -3px;
     border-bottom: 1px solid white;
     margin-right: 2px;
-    margin-left: 5px;
+    margin-left: -35px;
     box-sizing: border-box;
 }
 .leftBody a:hover{
-    margin-top: -3px;
-    /*margin-right: 3px;*/
-    padding-bottom: 1px;
-    /*padding-top: 15px;*/
-    display: block;
+    /*display: block;*/
     color: #080808;
     background-color: #47a447;
 }
@@ -112,7 +119,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     margin-top: -3px;
     border-bottom: 1px solid white;
     margin-right: 2px;
-    margin-left: 5px;
+    margin-left: -35px;
     box-sizing: border-box;
 }
 .leftBody a{
