@@ -63,7 +63,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     float: left;
     margin-right: 15px;
     /*margin-left: px;*/
-    margin-top: -10px;
+    margin-top: 0px;
     border-right: 2px solid #e9e8e7;
     border-bottom: 2px solid #e9e8e7;
     background-color: rgba(212,212,212,0.3);
@@ -73,6 +73,10 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
 }
 #SidedBar{
     width: 30%;
+}
+.mainTitle{
+    font-size: 30px;
+    color: green;
 }
 #mainPage{
     width: 880px;
@@ -129,8 +133,18 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     box-sizing: border-box;
 }
 .leftBody a:hover{
+     color: #080808;
+     background-color: #47a447;
+ }
+.leftBodyLast a:hover{
     color: #080808;
     background-color: #47a447;
+}
+.leftBody a{
+    color: #080808;
+}
+.leftBodyLast a{
+    color: #080808;
 }
 #leftHead {
     margin-top: -25px;
@@ -139,9 +153,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     margin-left: -35px;
     box-sizing: border-box;
 }
-.leftBody a{
-    color: #080808;
-}
+
 #bottomContact{
     font-size: 15px;
     margin-top: 200px;
