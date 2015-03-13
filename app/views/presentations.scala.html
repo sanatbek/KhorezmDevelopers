@@ -1,0 +1,36 @@
+@(presentations: List[Presentation])
+@main("Presentations"){
+    @header()
+    <div class="main-panel">
+        @leftSideBar()
+        <div id="mainPage">
+            <div class="header">
+                <h1><label class="label label-danger">SCALA</label> dan Prezentatsiyalar</h1>
+            </div>
+                <div class="col-xs-10">
+                    <div id="tablePr">
+                        <table class="table table-stripedOdd table-stripedEven table-bordered">
+                            <thead>
+                                <tr class="active h3">
+                                    <td><b>#</b></td>
+                                    <td><b>Nomi</b></td>
+                                    <td><b>Hajmi</b></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for(pr <- presentations){
+                                    <tr>
+                                        <td>@pr.id</td>
+                                        <td>@pr.name</td>
+                                        <td>@pr.size</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+}

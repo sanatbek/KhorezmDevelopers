@@ -34,12 +34,12 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     margin-right: auto;
     margin-left: auto;.
 }
-.row{
+.row1{
     width: 100%;
     margin-right:-15px;
     margin-left:-15px
 }
-.row:before,.row:after{
+.row1:before,.row:after{
     display:table;
     content:" "
 }
@@ -71,22 +71,20 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     padding-top: 10px;
     /*margin-bottom: 150px;*/
 }
-#SidedBar{
-    width: 30%;
-}
+
 .mainTitle{
     font-size: 30px;
     color: green;
 }
 #mainPage{
-    width: 880px;
+    width: 10000px;
     height: auto;
 }
 .left{
     /*position: relative;*/
     /*font-size: 15px;*/
     /*display: block;*/
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*padding-top: 5px;*/
 }
 .left li{
@@ -119,14 +117,14 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
 
 
 .leftBody {
-    margin-top: -18px;
+    margin-top: 0px;
     border-bottom: 1px solid white;
     margin-right: 2px;
     margin-left: -35px;
     box-sizing: border-box;
 }
 .leftBodyLast {
-    margin-top: -18px;
+    margin-top: 0px;
     border-bottom: 1px solid black;
     margin-right: 2px;
     margin-left: -35px;
@@ -147,7 +145,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     color: #080808;
 }
 #leftHead {
-    margin-top: -25px;
+    margin-top: -20px;
     border-bottom: 1px solid black;
     margin-right: 2px;
     margin-left: -35px;
@@ -174,7 +172,7 @@ body, p, h1,h2, h3, h4, table, td, th, ul, ol, textarea, input {
     /*border-bottom: 1px solid #eee;*/
 }
 #tablePr{
-    width: 70%;
+    width: 7%;
     margin-left: 70px;
 }
 .table-hoverSanat tbody tr:hover,
